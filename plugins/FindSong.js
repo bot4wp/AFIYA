@@ -36,14 +36,16 @@ const YT_NEED = `🤪 *Direct MP3 URL ඇතුලත් කරන්න.*
  💡 *Step 3:-* ඔබගේ දුරකතනයෙන් අවශ්‍ය MP3 ගොනුව Select කරන්න
  💡 *Step 4:-* එය Upload වූ පසු එයට පහල ඇති URL එක Copy කරගන්න
  💡 *Step 5:-* එම URL එක පහත පරිදි Botට ඇතුලත් කරන්න.
+      
+               <[GOOGLE POI TRANSLETE CHEYTHO]>
  
  🎥 *Example* : _.findsong https://www.mboxdrive.com/sample.mp3_
  
  Supports All Direct MP3 Links (Telegraph,fastupload,mailboxdrive,ufile,...)
  
  ══════════════════
-       *Copyright © AZURE*
-        CODED BY RAMIYA
+       *Copyright © αfíчα *
+        CODED BY KHADHER
 ══════════════════`
 
 // -----------------------------------------------------------------------------------------------------------------------------
@@ -52,7 +54,7 @@ const YT_NEED = `🤪 *Direct MP3 URL ඇතුලත් කරන්න.*
 
 Ramiya.addCommand({ pattern: 'findsong ?(.*)', fromMe: typea, desc: SH_DE, deleteCommand: false}, async (message, match) => {
 
-        const link = match[1] // 😡 අදත් ආවද Code එක උස්සන්න තිරිසනො  😖
+        const link = match[1] // 😡 Come today, beasts to raise the code
     
         if (!link) return await message.client.sendMessage(message.jid,YT_NEED,MessageType.text)
   
@@ -67,9 +69,9 @@ Ramiya.addCommand({ pattern: 'findsong ?(.*)', fromMe: typea, desc: SH_DE, delet
              title,artists,genre,album,release_date,
             } = response.data.data
     
-            var respoimage = await axios.get(`https://i.imgur.com/H04Am1h.jpg`, { responseType: 'arraybuffer' }) 
+            var respoimage = await axios.get(`https://www.linkpicture.com/q/20220327_102035.jpg`, { responseType: 'arraybuffer' }) 
             
-            const results = "👩‍🦰 *ALEXA SONG FINDER ©* \n\n🎙️ *TITLE :-* "+title+"\n👨🏻‍🎤 *ARTIST :-* "+artists+"\n🎼 *GENRE :-* "+genre+"\n📑 *ALBUM :-* "+album+"\n📅 *RELEASED ON :-* "+release_date+"\n"
+            const results = "👩‍🦰 *AFIYA SONG FINDER ©* \n\n🎙️ *TITLE :-* "+title+"\n👨🏻‍🎤 *ARTIST :-* "+artists+"\n🎼 *GENRE :-* "+genre+"\n📑 *ALBUM :-* "+album+"\n📅 *RELEASED ON :-* "+release_date+"\n"
     
 		await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: results,quoted: message.data})
 	
@@ -87,7 +89,7 @@ Ramiya.addCommand({ pattern: 'findsong ?(.*)', fromMe: typea, desc: SH_DE, delet
 
 Ramiya.addCommand({ pattern: 'findsong ?(.*)', fromMe: typeb, dontAddCommandList:true, deleteCommand: false}, async (message, match) => {
 
-        const link = match[1] // 😡 අදත් ආවද Code එක උස්සන්න තිරිසනො  😖
+        const link = match[1] // 😡 Come today, beasts to raise the code  😖
     
         if (!link) return await message.client.sendMessage(message.jid,YT_NEED,MessageType.text)
   
@@ -102,9 +104,9 @@ Ramiya.addCommand({ pattern: 'findsong ?(.*)', fromMe: typeb, dontAddCommandList
              title,artists,genre,album,release_date,
             } = response.data.data
     
-            var respoimage = await axios.get(`https://i.imgur.com/H04Am1h.jpg`, { responseType: 'arraybuffer' }) 
+            var respoimage = await axios.get(`https://www.linkpicture.com/q/20220327_102035.jpg`, { responseType: 'arraybuffer' }) 
             
-            const results = "👩‍🦰 *ALEXA SONG FINDER ©* \n\n🎙️ *TITLE :-* "+title+"\n👨🏻‍🎤 *ARTIST :-* "+artists+"\n🎼 *GENRE :-* "+genre+"\n📑 *ALBUM :-* "+album+"\n📅 *RELEASED ON :-* "+release_date+"\n"
+            const results = "👩‍🦰 *AFIYA SONG FINDER ©* \n\n🎙️ *TITLE :-* "+title+"\n👨🏻‍🎤 *ARTIST :-* "+artists+"\n🎼 *GENRE :-* "+genre+"\n📑 *ALBUM :-* "+album+"\n📅 *RELEASED ON :-* "+release_date+"\n"
     
 		await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: results,quoted: message.data})
 	
