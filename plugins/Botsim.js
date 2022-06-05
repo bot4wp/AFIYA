@@ -35,9 +35,9 @@ const heroku = new Heroku({
     token: Config.HEROKU.API_KEY
 });
 
-const cmsg = `*👩‍🦰 : හායි ඔයාලට කොහොමද?,*
-          *මම Alexa Bot*`
-const alexa = `👩‍🦰 : Alexa Bot යනු ලංකාවේ වැඩිම Features ඇතුලත් කර ඇති හොදම Bot වේ.`
+const cmsg = `*👩‍🦰 : hy how are you guyzz?,*
+          *αfíчα*`
+const alexa = `👩‍🦰 : αfíчα Bot යIs the best bot with the most features in kerala.`
 
 let baseURI = '/apps/' + Config.HEROKU.APP_NAME;
 
@@ -48,7 +48,7 @@ if (Config.AI_BOT == 'true') {
   if (match[1] === 'hi') return await message.client.sendMessage(message.jid,"\n"+cmsg+"\n",MessageType.text,{quoted: message.data});
   if (match[1] === "alexa" || match[1] === "Alexa" || match[1].includes('alexa') || match[1].includes('Alexa') ) {
 
-	return await message.client.sendMessage(message.jid,"\n"+alexa+"\n",MessageType.text,{quoted: message.data});
+	return await message.client.sendMessage(message.jid,"\n"+afiya+"\n",MessageType.text,{quoted: message.data});
   }
 			const url = `https://api.simsimi.net/v2/?text=${match[1]}&lc=en&cf=true`;
 			try {
@@ -65,7 +65,7 @@ if (Config.AI_BOT == 'true') {
 		Neotro.addCommand({pattern: 'bot ?(.*)', fromMe: false, desc: Lang.BOT_DESC}, async (message, match) => {
   if (match[1] === '') return await message.client.sendMessage(message.jid,"\n"+cmsg+"\n",MessageType.text,{quoted: message.data});
   if (match[1] === 'hi') return await message.client.sendMessage(message.jid,"\n"+cmsg+"\n",MessageType.text,{quoted: message.data});
-  if (match[1] === "alexa" || match[1] === "Alexa" || match[1].includes('alexa') || match[1].includes('Alexa') ) {
+  if (match[1] === "afiya" || match[1] === "Afiya" || match[1].includes('AFIYA') || match[1].includes('afiya') ) {
 
 	return await message.client.sendMessage(message.jid,"\n"+alexa+"\n",MessageType.text,{quoted: message.data});
   }
