@@ -80,9 +80,9 @@
         },
         "heroku": {
             "RESTART_DESC": "Restart Amazone Alexa",
-            "RESTART_MSG": "*Restarting 👩‍🦰Amazone Alexa...*",
-            "SHUTDOWN_DESC": "Shutdown 👩‍🦰Amazone Alexa",
-            "SHUTDOWN_MSG": "*Shutting down ⛔ 👩‍🦰Amazone Alexa*",
+            "RESTART_MSG": "*Restarting 🦜Afiya mwol...*",
+            "SHUTDOWN_DESC": "Shutdown 🦜Afiya mwol",
+            "SHUTDOWN_MSG": "*Shutting down ⛔ 🦜Afiya mwol*",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
             "DYNO_USED": "```Quota used```",
@@ -237,7 +237,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```👩‍🦰Amazone Creating Sticker```"
+            "DOWNLOADING": "```🦜Afiya mwolCreating Sticker```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -268,9 +268,9 @@
             "UPDATE_NOW_DESC": "It makes updates.",
             "UPDATING": "Updating..🧞‍♂️",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
-            "UPDATED": "*👩‍🦰Amazone Alexa Updated!*",
-            "UPDATED_LOCAL": "*👩‍🦰Amazone Alexa Updated!*",
-            "AFTER_UPDATE": "*👩‍🦰Amazone Alexa Restarting !*",
+            "UPDATED": "*🦜Afiya mwol Updated!*",
+            "UPDATED_LOCAL": "*🦜Afiya mwol Updated!*",
+            "AFTER_UPDATE": "*🦜Afiya mwol Restarting !*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
@@ -486,7 +486,7 @@
         },
         "instagram": {
             "NEED_WORD": "*Enter Any Instagram Post Link!*",
-            "USAGE": ".insta <userName>",
+            "USAGE": ".insta khadh3r",
             "DESC": "Downloads videos or photos from Instagram.",
             "LOADING": "Fetching user data.. please wait.",
             "USERNAME": "Username",
@@ -538,7 +538,7 @@
         },
         "tiktok": {
             "TİKTOK": "Downloads videos from Tiktok.",
-            "NEED": "```You Must Enter Any Tiktok Link!``` \n*Example:* ```.tiktok https://vm.tiktok.com/ZSJY27ExT/```",
+            "NEED": "```You Must Enter Any Tiktok Link!``` \n*Example:* ```.tiktok https://vm.tiktok.com/27ExT/```",
             "DOWN": "```Downloading Media..```",
             "CAPTİON": "Title:",
             "USERNAME": "Username:",
@@ -599,7 +599,7 @@
             "TIKTOK": "Download tik tok video",
             "DEVICE": "Check device details",
             "DATA": "Get Ehi list",
-            "E": "👩‍🦰",
+            "E": "🦜",
             "APK_DESC": "Playstore Download කරයි.",
             "APK_NEED": "Playstore app link ඇතුළත් කරන්න.",
             "NO_APK": "වලංගු playstore app link ඇතුළත් කරන්න.",
@@ -612,8 +612,8 @@
             "APK_SUM": "\n🔎info : ", 
             "TIKTOK": "Download Tik tok video.",
 	    "FBDOWN": "Download Facebook Video.",
-	    "PTDOWN": "Download Pinterest Images.\n*Ex:* .pindown https://www.pinterest.com/pin/624522673326224603/",
-            "NOT_AVAILABLE": "👩‍🦰Amazone chat bot Disabled."
+	    "PTDOWN": "Download Pinterest Images.\n*Ex:* .pindown <link>",
+            "NOT_AVAILABLE": "🦜Afiya mwol chat bot Disabled."
         },
         "covid": {
             "COV_DESC": "Shows the daily and overall covid table of more than 15 countries.",
